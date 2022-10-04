@@ -1,3 +1,13 @@
 .direnv
 incremental_db
 db
+
+*.rpt
+*.summary
+c5_pin_model_dump.txt
+QuartusCLI.done
+QuartusCLI.fit.smsg
+QuartusCLI.jdi
+QuartusCLI.pin
+QuartusCLI.sld
+QuartusCLI.sof
