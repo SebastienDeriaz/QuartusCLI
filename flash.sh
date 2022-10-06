@@ -1,1 +1,7 @@
-quartus_pgm -c "DE-SoC [3-1]" --mode=JTAG --operation='p;./QuartusCLI.sof@2'
+CABLE=''${CABLE:-$(quartus_pgm -l | grep -iv info: | head -n1 | sed 's/[^ ]* //')}
+MODE=''${MODE:-JTAG}
+echo "Flashing cable '$CABLE' with mode '$MODE'"
+quartus_pgm \
+--cable="$CABLE" \
+--mode="$MODE" \
+--operation='p;QuartusCLI.sof@2'
