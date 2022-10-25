@@ -91,6 +91,7 @@
     in
     {
       packages.default = build;
+      packages.build = build;
       packages.flash = flash;
       devShells.default = pkgs.mkShell {
         nativeBuildInputs = with pkgs; [
