@@ -9,7 +9,7 @@ Quartus CLI test project to flash a simple program using command line tools in a
 
 ### With Nix
 
-Nix needs to be installed in the computer (See ![Nix download](https://nixos.org/download.html))
+Nix needs to be installed first (see <https://nixos.org/download.html>)
 
 1) Clone the repository ``git clone https://github.com/SebastienDeriaz/QuartusCLI``
 2) cd into the directory ``cd QuartusCLI``
